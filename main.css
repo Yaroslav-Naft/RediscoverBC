@@ -12,11 +12,23 @@ html {
     box-sizing: inherit;
 }
 
+p {
+text-align: justify;
+font-size: 8px;
+}
+
+figcaption {
+    font-size: 8px;
+    text-align: center;
+    width: 70%;
+}
+
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: normal;
     color: white;
+    text-align: justify;
 }
 
 h2 {
@@ -25,6 +37,20 @@ h2 {
     font-weight: normal;
     color: white;
 }
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    border:1px solid black ;
+}
+
+
 
 nav {
     background-color: #1167b1 ;
@@ -54,14 +80,78 @@ header{
 
 footer{
     clear:both;
+    background-color:#3c556b;
+    font-size: 10px;
+    text-align: center;
+    color:white;
+    padding: 20px 20px 20px 20px;
 }
 
-
+aside {
+float:left;
+}
 
 #wrapper {
-    width:90%;
+    width:88%;
     margin: 0 auto;
-    overflow: auto;
-    background-color: white;
+    background-color:#fff;
+    overflow: 0 auto;
     padding: 3%;
 }
+
+#section2 {
+background-position:center;
+}
+
+#fig1 {
+float: left;
+width:20%;
+padding: 0%;
+margin: 5%;
+}
+
+#fig2 {
+float: left;
+width:20%;
+padding: 0%;
+margin: 5%;
+}
+
+#figcaption {
+float:left;
+width: 20%;
+padding-left:2%;
+}
+
+#EXPLOREBC {
+    background-position: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 30px;
+    font-weight: normal;
+    color:black;
+}
+
+#home-banner {
+    background-image: url(images/banner.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: contain;
+    background-position: center;
+    border: 1px solid black;
+
+}
+
+#img4 {
+    float: left;
+    background-image: url(images/img4.jpg);
+    height: 170px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+}
+
