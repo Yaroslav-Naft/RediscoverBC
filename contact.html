@@ -3,61 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Home</title>
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
+    <div id="wrapper">
+    <header>
+    <h1>Tourism British Columbia</h1>
+    <nav>
+     <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="#">Fall 2020</a></li>
+         <li><a href="traveltips.html">Travel Tips</a></li>
+         <li><a href="#">Contact a tour Guide</a></li>
+     </ul>
+    </nav>
+  <h2>REDISCOVER BC</h2>
+    <section id="contact-banner"></section>
 
-    <h1>Travel British Columbia</h1>
-    <hr>
-    <h2>Rediscover BC</h2>
+    </header>
+</head>
 
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#">Fall 2020</a></li>
-      <li><a href="traveltips.html">Travel Tips</a></li>
-      <li><a href="#">Contact a tour Guide</a></li>
-    </ul>
-    <figure>
-      <img src="images/banner3.jpg" alt="banner3">
-    </figure>
-    <h2>Plan the Perfect Trip: Ask A Tour Guide:</h2>
-    <h3>Hours of Operation:</h3>
-    <p>Mon - Fri: 9:00AM - 5:00PM</p>
-<h3>Deal of the Month:</h3>
 
-<table>
-    <tr>
-         <th>Month</th>
-         <th><strong>Deal</strong></th>   
-    </tr>  
-    <tr>
-        <td>September</td>
-        <td>100$ Off a Hotel Stay</td>   
-    </tr> 
-    <tr>
-        <td>March</td>
-        <td>50% Off Travel Guide Fees</td>   
-    </tr>
-    <tr>
-        <td>June</td>
-        <td>10% Off Campsite Booking</td>   
-    </tr>
-    <tr>
-        <td>August</td>
-        <td>50% Off Wineries</td>   
-    </tr>
-</table>
+    <h3>PLAN THE PERFECT TRIP<br> ASK A TOUR GUIDE:</h3>
+    <form>
+        <label for="firstName">First Name</label><br>
+        <input type="text" placeholder="Your name">
+        <br>
+        <br>
+        <label for="lastName">Last name</label><br>
+        <input type="text" placeholder="Your last name">
+        </label>
+        <br>
+        <br>
+        <label for="country">Country</label><br>
+        <select>
+            <option value ="Indonesia">Indonesia</option>
+            <option value ="China">China</option>
+            <option value ="Mexico">Mexico</option>
+        </select>
+        <br>
+        <br>
+        <label for="Subject">Subject</label><br>
+        <textarea placeholder="Write something..."></textarea><br>
+        <input type="submit" value="submit"> 
+    </form>
 
-<h3>Contact us by phone:</h3>
-<a href="tel:7788999090">778-899-9090</a>
+<section id="hours">
+    <strong>Hours of Operation</strong><br><br>
+    Mon - Fri:<br>
+    9:00AM - 5:00PM
+</section>
 
-<h3>Or Email Us:</h3>
-<a href="mailto:bctourism@travel.com">bctourism@travel.com</a>
-<hr>
+<footer>
+    &copy;British Columbia Tourism 2020 
+    <br><br>
+    Contact us at <a href="contact.html">Tourism BC</a>
+</footer>
 
-<p>&copy;British Columbia Tourism 2020</p>
-
-<footer>Contact us at <a href="mailto:Tourismbc@gmail.com">Tourism BC</a></footer>
+</div>
 </body>
 </html>
